@@ -1,3 +1,43 @@
+# Credits
+
+This project was created as part of a frontend development course at Lexicon. The project follows and uses the material provided in the tutorial made by "How to Become a Developer" at Youtube: https://www.youtube.com/watch?v=g0HKvRj84Ak&t=8136s. Credit to https://www.youtube.com/@howtobecomeadeveloper.
+
+---
+
+# Portfolio Website
+
+This is a responsive portfolio website built with **React.js**. It showcases a developer's skills, projects, testimonials, and contact information. The project is designed to be fully responsive and user-friendly, with smooth scrolling navigation and a modern UI.
+
+---
+
+## Features
+
+- **Hero Section**: A welcoming introduction with a call-to-action button.
+- **Skills Section**: Highlights the developer's expertise and technical skills.
+- **Portfolio Section**: Displays recent projects with descriptions and links.
+- **Testimonials Section**: Showcases client feedback.
+- **Contact Form**: Allows users to get in touch via a form.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
+- **Smooth Scrolling Navigation**: Powered by `react-scroll`.
+
+---
+
+## Technologies Used
+
+- **React.js**: Frontend framework.
+- **React Router**: For routing between pages.
+- **React Scroll**: For smooth scrolling navigation.
+- **CSS**: For styling and responsiveness.
+- **JSON**: For managing data like testimonials and portfolio items.
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +108,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
