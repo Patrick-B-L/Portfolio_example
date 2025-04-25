@@ -11,7 +11,9 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            <Route path='/' element={<Home />}></Route>
+            {/* <Route path='/' element={<Home />}></Route>
+            <Route path='/Home' element={<Home />}></Route> */}
+            <Route path='/Portfolio_example' element={<Home />}></Route>
             <Route path='*' element={<div>404 Not Found</div>}></Route>
           </Routes>
         </div>
