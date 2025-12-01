@@ -184,6 +184,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
+        <p className="footer--content">For credits and more information about this project click <a href="https://github.com/Patrick-B-L/Portfolio_example/blob/master/README.md" target="_blank" rel="noopener noreferrer">here</a></p>
         {/* <p className="footer--content">Made with 💖 by John</p> */}
         <div className="footer--social--icon">
           <ul>
