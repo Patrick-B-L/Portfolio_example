@@ -1,5 +1,6 @@
 import { Link } from "react-scroll"
 import react from "react"
+import heroImgUrl from "../../assets/img/hero_img.png";
 
 export default function HeroSection() {
   return (
@@ -29,7 +30,7 @@ export default function HeroSection() {
                               </Link></button>
         </div>
         <div className="hero--section--img">
-            <img src="./img/hero_img.png" alt="Hero Section" />
+            <img src={heroImgUrl} alt="Hero Section" />
         </div>
 
     </section>

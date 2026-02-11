@@ -1,4 +1,5 @@
 import data from "../../data/index.json";
+import { resolveImage } from "../../assets/images";
 
 
 export default function MyPortfolio() {
@@ -32,7 +33,7 @@ export default function MyPortfolio() {
         <div className="portfolio--section--container">{data?.portfolio?.map((item, index) => (
             <div key={index} className="portfolio--section--card">
                 <div className="portfolio--section--img">
-                <img src={item.src} alt="Placeholder" />
+                <img src={resolveImage(item.src)} alt="Placeholder" />
                 </div>
                 <div className="portfolio--section--card--content">
                     <div>

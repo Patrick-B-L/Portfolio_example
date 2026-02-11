@@ -1,4 +1,5 @@
 import  data from "../../data/index.json";
+import { resolveImage } from "../../assets/images";
 
 export default function MySkills() {
   return (
@@ -11,7 +12,7 @@ export default function MySkills() {
             {data?.skills?.map((item, index) => (
                 <div key={index} className="skills--section--card">
                     <div className="skills--section--img">
-                        <img src={item.src} alt="Poduct Chain" />
+                        <img src={resolveImage(item.src)} alt="Poduct Chain" />
                     </div>
                     <div className="skills--section--card--content">
                         <h3 className="skills--section--title">{item.title}</h3>
